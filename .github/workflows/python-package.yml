@@ -69,7 +69,7 @@ jobs:
   build-shared-libs-cuda:
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest]
+        os: [windows-latest]
         arch: [x86_64, aarch64]
         cuda_version: ['11.7.1']
         exclude:
