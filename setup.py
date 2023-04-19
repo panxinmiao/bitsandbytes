@@ -8,7 +8,7 @@ import os
 from setuptools import find_packages, setup
 from setuptools.dist import Distribution
 
-libs = list(glob.glob("./bitsandbytes/libbitsandbytes*.*"))
+libs = list(glob.glob("./bitsandbytes/bitsandbytes*.*"))
 libs = [os.path.basename(p) for p in libs]
 print("libs:", libs)
 
