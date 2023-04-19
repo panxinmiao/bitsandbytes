@@ -10,7 +10,7 @@ if(ENABLE_CUDA)
     if(NO_CUBLASLT)
         set(CMAKE_CUDA_ARCHITECTURES 50 52 60 61 70 72)
     else()
-        set(CMAKE_CUDA_ARCHITECTURES 75 80 86 89 90)
+        set(CMAKE_CUDA_ARCHITECTURES 75 80 86)
     endif()
 endif()
 
